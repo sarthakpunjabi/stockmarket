@@ -47,19 +47,11 @@ You also need to make .env which consists of
 $ touch .env
 ```
 
-SECRET_KEY = 'django-insecure-oq#\_b0l&b57)52$*9dft77#10td2ch4%$)fds08bi0!0lcvbji'
-EMAIL_HOST_USER = ''
-EMAIL_HOST_PASSWORD = ''
-DATABASENAME = 'db.sqlite3'
-API_KEY = 'yRBAHHd0x6RanozlEfA41vvId'
-API_KEY_SECRET = 'dT0J5V8SMSbpq9J6xFBabBmM2inoquNI1iLINyl6GWkElrtada'
-ACCESS_TOKEN = '1515369013236350976-AeC0aTqESf45FhoO0fuuT7bWhzQE4o'
-ACCESS_TOKEN_SECRET = 'APtHWwgyDmVjND5GAb1IjnwH2OukYqP1nPhd3zPanMeC9'
-BEARER_TOKEN = 'AAAAAAAAAAAAAAAAAAAAAIaLfwEAAAAAoVlzNsj33W4IILE08IbE9Yfl4b0%3DT4QG5leXmiAXQIpqL2ZY5cEgrDOEbp4wJ89OV2ZQ2DkAZgjPTJ'
+Now in stockmarket settings.py you can change the secret key email host and password and multiple more field where i have used decouple as this was for privacy matter
 
 Here you need to fill your email and password after turning of 2FA and activating less secure app allowance from google . Not mandatory only signins will not be working . For test run you can use this email and password for logging in :-
 sarthakpunjabi04@gmail.com
-sarthak
+sarthak1139
 
 You're ready to run the project with `Django server` :
 
